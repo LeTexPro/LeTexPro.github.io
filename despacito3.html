@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<audio id="despacito3">
+  <source src="despacito3.mp3" type="audio/mp3">
+  <source src="despacito3.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+<p>Click the buttons to play or pause despacito 3.</p>
+
+<button onclick="playAudio()" type="button">Play despacito 3</button>
+<button onclick="pauseAudio()" type="button">Pause despacito 3</button> 
+
+<script>
+var x = document.getElementById("despacito3"); 
+
+function playAudio() { 
+    x.play(); 
+} 
+
+function pauseAudio() { 
+    x.pause(); 
+} 
+</script>
+
+</body>
+</html>
+
+
